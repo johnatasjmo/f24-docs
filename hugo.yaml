@@ -1,9 +1,7 @@
 baseURL: https://docs.flete24.com/
 title: Flete24 Docs
 
-module:
-  imports:
-    - path: github.com/imfing/hextra
+theme: hextra
 
 defaultContentLanguage: es
 defaultContentLanguageInSubdir: true
@@ -13,10 +11,12 @@ languages:
     languageName: Español
     weight: 1
     title: Flete24 Documentación
+    contentDir: content/es
   en:
     languageName: English
     weight: 2
     title: Flete24 Docs
+    contentDir: content/en
 
 enableRobotsTXT: true
 enableGitInfo: true
