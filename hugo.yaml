@@ -1,0 +1,68 @@
+baseURL: https://docs.flete24.com/
+title: Flete24 Docs
+theme: hextra
+
+defaultContentLanguage: es
+defaultContentLanguageInSubdir: true
+
+languages:
+  es:
+    languageName: Español
+    weight: 1
+    title: Flete24 Documentación
+  en:
+    languageName: English
+    weight: 2
+    title: Flete24 Docs
+
+enableRobotsTXT: true
+enableGitInfo: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Flete24
+      url: https://app.flete24.com
+      weight: 1
+      params:
+        type: remote
+
+params:
+  description: User guides for the Flete24 freight management platform.
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    width: wide
+
+  page:
+    width: normal
+
+  theme:
+    default: dark
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  search:
+    enable: true
+    type: flexsearch
+
+  highlight:
+    copy:
+      enable: true
+
+  comments:
+    enable: false
